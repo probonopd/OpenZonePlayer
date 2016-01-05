@@ -8,7 +8,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/List_of_UPnP_AV_media_se
 
 This is what would need to be done:
  1. Send SSDP broadcast messages to make the device discoverable by controllers
- 2. Respond to UPnP messages in a ZonePlayer-like way
+ 2. Respond to UPnP messages in a ZonePlayer-like way, possibly using/building on https://github.com/hzeller/gmrender-resurrect or https://github.com/JiapengLi/OpenWrt-gmediarender
  3. Find a way to synchronize multiple players for multiroom experience
 
 ### Sonos-compatible software-based controllers
