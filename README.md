@@ -2,7 +2,7 @@
 
 ## Idea
 
-There are several Sonos-compatible software-based controllers, but apparently there is no software-based ZonePlayer compatible player so far. Can we cange that? (Or is https://github.com/henkelis/sonospy one? "Music served from Sonos can now be rendered locally via BRisa renderer")
+There are several Sonos-compatible software-based controllers, but apparently there is no software-based ZonePlayer compatible player so far. Can we cange that? (Or is https://github.com/henkelis/sonospy one? "Music served from Sonos can now be rendered locally via BRisa renderer" that is nice, but we want Sonos-compatible controllers play music on the OpenZonePlayer.)
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/List_of_UPnP_AV_media_servers_and_clients), "all Sonos Player Compononents (PLAY:3, PLAY:5, Connect, Connect:AMP, PLAYBAR)" are "UPnP media render hardware". 
 
