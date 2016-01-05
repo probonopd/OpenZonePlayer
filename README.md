@@ -10,6 +10,11 @@ This is what would need to be done:
 
 ### Sonos-compatible software-based controllers
 
- * https://github.com/rahims/SoCo
+ * https://github.com/SoCo/SoCo Sonos Controller is a simple Python class that allows you to programmatically control Sonos speakers 
+ * https://github.com/SoCo/socos Commandline tool for controlling Sonos devices
+ 
+### To be investigated
+
+  * https://github.com/henkelis/sonospy UPnP control point and Windows Media proxy for the Sonos multi-room audio system
 
 This project is in no way affiliated with SONOS, Inc. and is using only publicly available information.
