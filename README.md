@@ -2,7 +2,7 @@
 
 ## Idea
 
-There are several Sonos-compatible software-based controllers, but so far no software-based ZonePlayer compatible player. Can we cange that?
+There are several Sonos-compatible software-based controllers, but apparently there is no software-based ZonePlayer compatible player so far. Can we cange that?
 
 This is what would need to be done:
  1. Make the device discoverable with UPNP
