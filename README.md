@@ -8,4 +8,8 @@ This is what would need to be done:
  1. Make the device discoverable with UPNP
  2. Respond to UPNP messages
 
+### Sonos-compatible software-based controllers
+
+ * https://github.com/rahims/SoCo
+
 This project is in no way affiliated with SONOS, Inc. and is using only publicly available information.
