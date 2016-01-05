@@ -7,7 +7,7 @@ There are several Sonos-compatible software-based controllers, but apparently th
 According to [Wikipedia](https://en.wikipedia.org/wiki/List_of_UPnP_AV_media_servers_and_clients), "all Sonos Player Compononents (PLAY:3, PLAY:5, Connect, Connect:AMP, PLAYBAR)" are "UPnP media render hardware". So if the players are UPnP media renderers, why isn't there a ZonePlayer-compatible UPnP media renderer?
 
 This is what I think would need to be done:
- 1. Send SSDP broadcast messages to make the device discoverable by controllers
+ 1. Send SSDP broadcast messages to make the device discoverable by controllers, e.g., using http://miniupnp.free.fr/minissdpd.html
  2. Respond to UPnP messages in a ZonePlayer-like way, possibly using/building on https://github.com/hzeller/gmrender-resurrect or https://github.com/JiapengLi/OpenWrt-gmediarender (precompiled at https://forum.openwrt.org/viewtopic.php?pid=236110#p236110)
  3. Find a way to synchronize multiple players for multiroom experience
 
