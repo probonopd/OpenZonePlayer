@@ -1,0 +1,2363 @@
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     Using localhost: 192.168.178.49:8080
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     Loaded encoders:
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     <LameEncoder bit-rate="192" state="True" enabled="True" mime-types="audio/mpeg,audio/mp3">
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     <WavEncoder bit-rate="None" state="True" enabled="True" mime-types="audio/wav,audio/x-wav">
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     <AacEncoder bit-rate="192" state="True" enabled="True" mime-types="audio/aac,audio/x-aac">
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     <FlacEncoder bit-rate="None" state="True" enabled="True" mime-types="audio/flac,audio/x-flac">
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     <OggEncoder bit-rate="192" state="False" enabled="True" mime-types="audio/ogg,audio/x-ogg,application/ogg">
+08-12 22:17:38 pulseaudio_dlna.application                    INFO     <OpusEncoder bit-rate="192" state="False" enabled="True" mime-types="audio/opus,audio/x-opus">
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+ST: upnp:rootdevice
+USN: uuid:73796E6F-6473-6D00-0000-001132101ad9::upnp:rootdevice
+EXT:
+SERVER: Synology/DSM/192.168.178.31
+LOCATION: http://192.168.178.31:5000/ssdp/desc-DSM-eth0.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1337
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: upnp:rootdevice
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::upnp:rootdevice
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: uuid:00113210-1ad9-0011-d91a-d91a10321100
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:schemas-upnp-org:device:MediaServer:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:schemas-upnp-org:device:MediaServer:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:schemas-upnp-org:service:ContentDirectory:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 60
+EXT:
+LOCATION: http://192.168.178.36:5200/Printer.xml
+SERVER: Network Printer Server UPnP/1.0 OS 1.29.00.50 11-28-2012
+ST: upnp:rootdevice
+USN: uuid:Samsung-Printer-1_0-SEC00159977479B::upnp:rootdevice
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::upnp:rootdevice
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:MediaServer:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:schemas-upnp-org:device:MediaServer:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1::upnp:rootdevice
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:l2tpv3:1
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-upnp-org:device:l2tpv3:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1::upnp:rootdevice
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1
+USN: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:WANDevice:1
+USN: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1::urn:schemas-upnp-org:device:WANDevice:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:WANConnectionDevice:1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1::urn:schemas-upnp-org:device:WANConnectionDevice:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:schemas-upnp-org:service:ContentDirectory:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:avm.de:service:AVM_ServerStatus:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:avm.de:service:AVM_ServerStatus:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-any-com:service:l2tpv3:1
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-any-com:service:l2tpv3:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-any-com:service:Any:1
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-any-com:service:Any:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+USN: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1::urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:WANDSLLinkConfig:1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1::urn:schemas-upnp-org:service:WANDSLLinkConfig:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:WANIPConnection:1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1::urn:schemas-upnp-org:service:WANIPConnection:1
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: upnp:rootdevice
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449::upnp:rootdevice
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 22:17:36 GMT
+EXT:
+LOCATION: http://192.168.178.22:37904/MediaRenderer1.xml
+SERVER: Linux/2.6.26 UPnP/1.0 DLNADOC/1.50 INTEL_NMPR/2.0 LGE_DLNA_SDK/1.5.0
+ST: uuid:fe9c88d0-1dd1-11b2-bdbe-8b6b477c4712
+USN: uuid:fe9c88d0-1dd1-11b2-bdbe-8b6b477c4712
+
+
+08-12 22:17:38 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 22:17:36 GMT
+EXT:
+LOCATION: http://192.168.178.22:37904/MediaRenderer1.xml
+SERVER: Linux/2.6.26 UPnP/1.0 DLNADOC/1.50 INTEL_NMPR/2.0 LGE_DLNA_SDK/1.5.0
+ST: urn:schemas-upnp-org:device:MediaRenderer:1
+USN: uuid:fe9c88d0-1dd1-11b2-bdbe-8b6b477c4712::urn:schemas-upnp-org:device:MediaRenderer:1
+
+
+08-12 22:17:38 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.22
+08-12 22:17:38 requests.packages.urllib3.connectionpool       DEBUG    "GET /MediaRenderer1.xml HTTP/1.1" 200 2249
+08-12 22:17:38 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    Response from UPNP device (http://192.168.178.22:37904/MediaRenderer1.xml)
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0" xmlns:pnpx="http://schemas.microsoft.com/windows/pnpx/2005/11" xmlns:df="http://schemas.microsoft.com/windows/2008/09/devicefoundation">
+<specVersion>
+<major>1</major>
+<minor>0</minor>
+</specVersion>
+<device>
+<pnpx:X_hardwareId>VEN_0104&amp;DEV_0001&amp;REV_01 VEN_0033&amp;DEV_0006&amp;REV_01</pnpx:X_hardwareId>
+<pnpx:X_compatibleId>MS_DigitalMediaDeviceClass_DMR_V001</pnpx:X_compatibleId>
+<pnpx:X_deviceCategory>MediaDevices</pnpx:X_deviceCategory>
+<df:X_deviceCategory> Multimedia.DMR</df:X_deviceCategory>
+<df:X_modelId>LG Digital Media Renderer TV</df:X_modelId>
+<deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+<friendlyName>42LS560S-ZC</friendlyName>
+<manufacturer>LG Electronics</manufacturer>
+<manufacturerURL>http://www.lge.com</manufacturerURL>
+<modelDescription>UPnP Media Renderer 1.0</modelDescription>
+<modelName>MediaRenderer</modelName>
+<modelNumber>1.0</modelNumber>
+<modelURL>http://www.lge.com/</modelURL>
+<serialNumber>123456789001</serialNumber>
+<UDN>uuid:fe9c88d0-1dd1-11b2-bdbe-8b6b477c4712</UDN>
+<UPC>123456789012</UPC>
+<dlna:X_DLNADOC xmlns:dlna="urn:schemas-dlna-org:device-1-0">DMR-1.50</dlna:X_DLNADOC>
+<serviceList>
+<service>
+<serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+<SCPDURL>/RenderingControl1.xml</SCPDURL>
+<controlURL>/upnp/control/RenderingControl1</controlURL>
+<eventSubURL>/upnp/event/RenderingControl1</eventSubURL>
+</service>
+<service>
+<serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+<SCPDURL>/ConnectionManager1.xml</SCPDURL>
+<controlURL>/upnp/control/ConnectionManager1</controlURL>
+<eventSubURL>/upnp/event/ConnectionManager1</eventSubURL>
+</service>
+<service>
+<serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+<serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+<SCPDURL>/AVTransport1.xml</SCPDURL>
+<controlURL>/upnp/control/AVTransport1</controlURL>
+<eventSubURL>/upnp/event/AVTransport1</eventSubURL>
+</service>
+</serviceList>
+<presentationURL>/Presentation.html</presentationURL>
+</device>
+</root>
+
+08-12 22:17:38 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.22
+08-12 22:17:39 requests.packages.urllib3.connectionpool       DEBUG    "POST /upnp/control/ConnectionManager1 HTTP/1.1" 200 1546
+08-12 22:17:39 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending GET_PROTOCOL_INFO to http://192.168.178.22:37904/upnp/control/ConnectionManager1:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:ConnectionManager:1#GetProtocolInfo"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:GetProtocolInfo xmlns:u="urn:schemas-upnp-org:service:ConnectionManager:1">
+        </u:GetProtocolInfo>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body>
+<u:GetProtocolInfoResponse xmlns:u="urn:schemas-upnp-org:service:ConnectionManager:1">
+<Source></Source>
+<Sink>http-get:*:audio/l16;rate=44100;channels=1:DLNA.ORG_PN=LPCM,http-get:*:audio/l16;rate=44100;channels=2:DLNA.ORG_PN=LPCM,http-get:*:audio/mpeg:DLNA.ORG_PN=MP3,http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_SM,http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_MED,http-get:*:image/jpeg:DLNA.ORG_PN=JPEG_LRG,http-get:*:video/mpeg:DLNA.ORG_PN=MPEG_PS_PAL,http-get:*:video/mpeg:DLNA.ORG_PN=MPEG_PS_NTSC,http-get:*:video/vnd.dlna.mpeg-tts:DLNA.ORG_PN=MPEG_TS_SD_NA,http-get:*:video/vnd.dlna.mpeg-tts:DLNA.ORG_PN=MPEG_TS_SD_NA_T,http-get:*:video/mpeg:DLNA.ORG_PN=MPEG_TS_SD_NA_ISO,http-get:*:video/vnd.dlna.mpeg-tts:DLNA.ORG_PN=MPEG_TS_SD_KO,http-get:*:video/vnd.dlna.mpeg-tts:DLNA.ORG_PN=MPEG_TS_SD_KO_T,http-get:*:video/mpeg:DLNA.ORG_PN=MPEG_TS_SD_KO_ISO,http-get:*:video/vnd.dlna.mpeg-tts:DLNA.ORG_PN=MPEG_TS_SD_EU,http-get:*:video/vnd.dlna.mpeg-tts:DLNA.ORG_PN=MPEG_TS_SD_EU_T,http-get:*:video/mpeg:DLNA.ORG_PN=MPEG_TS_SD_EU_ISO,http-get:*:audio/mpegurl:*,http-get:*:audio/mp3:*,http-get:*:audio/mpeg:*,http-get:*:audio/mpeg3:*,http-get:*:video/x-ms-wmv:*,http-get:*:video/x-ms-asf:*,http-get:*:video/x-ms-avi:*,http-get:*:video/mpeg:*,http-get:*:video/avi:*,http-get:*:video/mp4:*,http-get:*:video/x-matroska:*,http-get:*:video/3gpp:*,http-get:*:video/x-msvideo:*</Sink>
+</u:GetProtocolInfoResponse>
+</s:Body> </s:Envelope>
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: uuid:7d190562-d626-5155-94e2-4f40d6963449
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:dial-multiscreen-org:device:dial:1
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449::urn:dial-multiscreen-org:device:dial:1
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 22:17:36 GMT
+EXT:
+LOCATION: http://192.168.178.22:37904/MediaRenderer1.xml
+SERVER: Linux/2.6.26 UPnP/1.0 DLNADOC/1.50 INTEL_NMPR/2.0 LGE_DLNA_SDK/1.5.0
+ST: urn:schemas-upnp-org:service:RenderingControl:1
+USN: uuid:fe9c88d0-1dd1-11b2-bdbe-8b6b477c4712::urn:schemas-upnp-org:service:RenderingControl:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:dial-multiscreen-org:service:dial:1
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449::urn:dial-multiscreen-org:service:dial:1
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.26
+08-12 22:17:39 requests.packages.urllib3.connectionpool       DEBUG    "GET /ssdp/device-desc.xml HTTP/1.1" 200 1091
+08-12 22:17:39 pulseaudio_dlna.plugins.chromecast.renderer    DEBUG    Response from chromecast device (http://192.168.178.26:8008/ssdp/device-desc.xml)
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <URLBase>http://192.168.178.26:8008</URLBase>
+  <device>
+    <deviceType>urn:dial-multiscreen-org:device:dial:1</deviceType>
+    <friendlyName>Wohnzimmer</friendlyName>
+    <manufacturer>Google Inc.</manufacturer>
+    <modelName>Eureka Dongle</modelName>
+    <UDN>uuid:7d190562-d626-5155-94e2-4f40d6963449</UDN>
+    <iconList>
+      <icon>
+        <mimetype>image/png</mimetype>
+        <width>98</width>
+        <height>55</height>
+        <depth>32</depth>
+        <url>/setup/icon.png</url>
+      </icon>
+    </iconList>
+    <serviceList>
+      <service>
+        <serviceType>urn:dial-multiscreen-org:service:dial:1</serviceType>
+        <serviceId>urn:dial-multiscreen-org:serviceId:dial</serviceId>
+        <controlURL>/ssdp/notfound</controlURL>
+        <eventSubURL>/ssdp/notfound</eventSubURL>
+        <SCPDURL>http://www.google.com/cast</SCPDURL>
+      </service>
+    </serviceList>
+  </device>
+</root>
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:ses-com:device:SatIPServer:1
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3::urn:ses-com:device:SatIPServer:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:ses-com:service:satip:1
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3::urn:ses-com:service:satip:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+ST: upnp:rootdevice
+USN: uuid:73796E6F-6473-6D00-0000-001132101ad9::upnp:rootdevice
+EXT:
+SERVER: Synology/DSM/192.168.178.31
+LOCATION: http://192.168.178.31:5000/ssdp/desc-DSM-eth0.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 1
+BOOTID.UPNP.ORG: 1
+CONFIGID.UPNP.ORG: 1337
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 60
+EXT:
+LOCATION: http://192.168.178.36:5200/Printer.xml
+SERVER: Network Printer Server UPnP/1.0 OS 1.29.00.50 11-28-2012
+ST: uuid:Samsung-Printer-1_0-SEC00159977479B
+USN: uuid:Samsung-Printer-1_0-SEC00159977479B
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 60
+EXT:
+LOCATION: http://192.168.178.36:5200/Printer.xml
+SERVER: Network Printer Server UPnP/1.0 OS 1.29.00.50 11-28-2012
+ST: upnp:rootdevice
+USN: uuid:Samsung-Printer-1_0-SEC00159977479B::upnp:rootdevice
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 60
+EXT:
+LOCATION: http://192.168.178.36:5200/Printer.xml
+SERVER: Network Printer Server UPnP/1.0 OS 1.29.00.50 11-28-2012
+ST: urn:schemas-upnp-org:device:Printer:1
+USN: uuid:Samsung-Printer-1_0-SEC00159977479B::urn:schemas-upnp-org:device:Printer:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: upnp:rootdevice
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::upnp:rootdevice
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: uuid:00113210-1ad9-0011-d91a-d91a10321100
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:schemas-upnp-org:device:MediaServer:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:schemas-upnp-org:device:MediaServer:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 60
+EXT:
+LOCATION: http://192.168.178.36:5200/Printer.xml
+SERVER: Network Printer Server UPnP/1.0 OS 1.29.00.50 11-28-2012
+ST: urn:schemas-upnp-org:service:PrintBasic:1
+USN: uuid:Samsung-Printer-1_0-SEC00159977479B::urn:schemas-upnp-org:service:PrintBasic:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:schemas-upnp-org:service:ContentDirectory:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1900
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.31:50001/desc/device.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: b1157e18-1dd1-11b2-8dea-944e966a265b
+SERVER: Linux/3.10.35, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+USN: uuid:00113210-1ad9-0011-d91a-d91a10321100::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3::upnp:rootdevice
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::upnp:rootdevice
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:MediaServer:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:schemas-upnp-org:device:MediaServer:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:ses-com:device:SatIPServer:1
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3::urn:ses-com:device:SatIPServer:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.24:49000/satipdesc.xml
+SERVER: FRITZ!WLAN Repeater DVB-C UPnP/1.0 AVM FRITZ!WLAN Repeater DVB-C 133.06.23
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:ses-com:service:satip:1
+USN: uuid:663d5d6c-f9f8-4bb4-84d4-3431C46D92A3::urn:ses-com:service:satip:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1::upnp:rootdevice
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:l2tpv3:1
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-upnp-org:device:l2tpv3:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: upnp:rootdevice
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1::upnp:rootdevice
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:InternetGatewayDevice:1
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-upnp-org:device:InternetGatewayDevice:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1
+USN: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:WANDevice:1
+USN: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1::urn:schemas-upnp-org:device:WANDevice:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:device:WANConnectionDevice:1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1::urn:schemas-upnp-org:device:WANConnectionDevice:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:schemas-upnp-org:service:ContentDirectory:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:microsoft.com:service:X_MS_MediaReceiverRegistrar:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: upnp:rootdevice
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449::upnp:rootdevice
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/MediaServerDevDesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:avm.de:service:AVM_ServerStatus:1
+USN: uuid:fa095ecc-e13e-40e7-8e6c-0896d7d952e1::urn:avm.de:service:AVM_ServerStatus:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: uuid:7d190562-d626-5155-94e2-4f40d6963449
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:dial-multiscreen-org:device:dial:1
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449::urn:dial-multiscreen-org:device:dial:1
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/l2tpv3.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-any-com:service:l2tpv3:1
+USN: uuid:95802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-any-com:service:l2tpv3:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-any-com:service:Any:1
+USN: uuid:75802409-bccb-40e7-8e6c-0896D7D952E1::urn:schemas-any-com:service:Any:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+USN: uuid:75802409-bccb-40e7-8e6b-0896D7D952E1::urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 20:17:38 GMT
+EXT:
+LOCATION: http://192.168.178.26:8008/ssdp/device-desc.xml
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01
+01-NLS: 8e9d5c7c-1dd2-11b2-810e-9383eb4b3db4
+SERVER: Linux/3.8.13, UPnP/1.0, Portable SDK for UPnP devices/1.6.18
+X-User-Agent: redsonic
+ST: urn:dial-multiscreen-org:service:dial:1
+USN: uuid:7d190562-d626-5155-94e2-4f40d6963449::urn:dial-multiscreen-org:service:dial:1
+BOOTID.UPNP.ORG: 919
+CONFIGID.UPNP.ORG: 2
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:WANDSLLinkConfig:1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1::urn:schemas-upnp-org:service:WANDSLLinkConfig:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+LOCATION: http://192.168.178.1:49000/igddesc.xml
+SERVER: FRITZ!Box 7490 UPnP/1.0 AVM FRITZ!Box 7490 113.06.30
+CACHE-CONTROL: max-age=1800
+EXT:
+ST: urn:schemas-upnp-org:service:WANIPConnection:1
+USN: uuid:75802409-bccb-40e7-8e6a-0896D7D952E1::urn:schemas-upnp-org:service:WANIPConnection:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=1800
+DATE: Wed, 12 Aug 2015 22:17:36 GMT
+EXT:
+LOCATION: http://192.168.178.22:37904/MediaRenderer1.xml
+SERVER: Linux/2.6.26 UPnP/1.0 DLNADOC/1.50 INTEL_NMPR/2.0 LGE_DLNA_SDK/1.5.0
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:fe9c88d0-1dd1-11b2-bdbe-8b6b477c4712::urn:schemas-upnp-org:service:ConnectionManager:1
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: upnp:rootdevice
+USN: uuid:RINCON_000E58E1DFBC01400::upnp:rootdevice
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:DeviceProperties:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:DeviceProperties:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:SystemProperties:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:SystemProperties:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:ZoneGroupTopology:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:ZoneGroupTopology:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:AVTransport:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-upnp-org:service:AVTransport:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:GroupManagement:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:GroupManagement:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-sonos-com:service:Queue:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-sonos-com:service:Queue:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:GroupRenderingControl:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-upnp-org:service:GroupRenderingControl:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: uuid:RINCON_000E58E1DFBC01400
+USN: uuid:RINCON_000E58E1DFBC01400
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:device:ZonePlayer:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:device:ZonePlayer:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: upnp:rootdevice
+USN: uuid:RINCON_000E58E1DFBC01400::upnp:rootdevice
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:DeviceProperties:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:DeviceProperties:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:SystemProperties:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:SystemProperties:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:ZoneGroupTopology:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:ZoneGroupTopology:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.27:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-90191 (BR100)
+ST: urn:schemas-upnp-org:service:GroupManagement:1
+USN: uuid:RINCON_000E58E1DFBC01400::urn:schemas-upnp-org:service:GroupManagement:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 43
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: uuid:RINCON_000E5873442E01400
+USN: uuid:RINCON_000E5873442E01400
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:device:ZonePlayer:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:device:ZonePlayer:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: upnp:rootdevice
+USN: uuid:RINCON_000E5873442E01400::upnp:rootdevice
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: uuid:RINCON_000E5873442E01400_MS
+USN: uuid:RINCON_000E5873442E01400_MS
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:device:MediaServer:1
+USN: uuid:RINCON_000E5873442E01400_MS::urn:schemas-upnp-org:device:MediaServer:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: uuid:RINCON_000E5873442E01400_MR
+USN: uuid:RINCON_000E5873442E01400_MR
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:device:MediaRenderer:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-upnp-org:device:MediaRenderer:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.58
+08-12 22:17:39 requests.packages.urllib3.connectionpool       DEBUG    "GET /xml/device_description.xml HTTP/1.1" 200 None
+08-12 22:17:39 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    Response from UPNP device (http://192.168.178.58:1400/xml/device_description.xml)
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:ZonePlayer:1</deviceType>
+    <friendlyName>192.168.178.58 - Sonos PLAY:3</friendlyName>
+    <manufacturer>Sonos, Inc.</manufacturer>
+    <manufacturerURL>http://www.sonos.com</manufacturerURL>
+    <modelNumber>S3</modelNumber>
+    <modelDescription>Sonos PLAY:3</modelDescription>
+    <modelName>Sonos PLAY:3</modelName>
+    <modelURL>http://www.sonos.com/products/zoneplayers/S3</modelURL>
+    <softwareVersion>29.5-91030</softwareVersion>
+    <hardwareVersion>1.8.1.2-2</hardwareVersion>
+    <serialNum>00-0E-58-73-44-2E:B</serialNum>
+    <UDN>uuid:RINCON_000E5873442E01400</UDN>
+    <iconList>
+      <icon>
+        <id>0</id>
+        <mimetype>image/png</mimetype>
+        <width>48</width>
+        <height>48</height>
+        <depth>24</depth>
+        <url>/img/icon-S3.png</url>
+      </icon>
+    </iconList>
+    <minCompatibleVersion>28.0-00000</minCompatibleVersion>
+    <legacyCompatibleVersion>24.0-0000</legacyCompatibleVersion>
+    <displayVersion>5.4</displayVersion>
+    <extraVersion>OTP: </extraVersion>
+    <roomName>Schlafzimmer</roomName>
+    <displayName>PLAY:3</displayName>
+    <zoneType>7</zoneType>
+    <feature1>0x00000000</feature1>
+    <feature2>0x00006332</feature2>
+    <feature3>0x0003002e</feature3>
+    <internalSpeakerSize>4</internalSpeakerSize>
+    <bassExtension>60.000</bassExtension>
+    <satGainOffset>3.000</satGainOffset>
+    <memory>64</memory>
+    <flash>64</flash>
+    <ampOnTime>425</ampOnTime>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:AlarmClock:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:AlarmClock</serviceId>
+        <controlURL>/AlarmClock/Control</controlURL>
+        <eventSubURL>/AlarmClock/Event</eventSubURL>
+        <SCPDURL>/xml/AlarmClock1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:MusicServices:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:MusicServices</serviceId>
+        <controlURL>/MusicServices/Control</controlURL>
+        <eventSubURL>/MusicServices/Event</eventSubURL>
+        <SCPDURL>/xml/MusicServices1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:DeviceProperties:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:DeviceProperties</serviceId>
+        <controlURL>/DeviceProperties/Control</controlURL>
+        <eventSubURL>/DeviceProperties/Event</eventSubURL>
+        <SCPDURL>/xml/DeviceProperties1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:SystemProperties:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:SystemProperties</serviceId>
+        <controlURL>/SystemProperties/Control</controlURL>
+        <eventSubURL>/SystemProperties/Event</eventSubURL>
+        <SCPDURL>/xml/SystemProperties1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ZoneGroupTopology:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ZoneGroupTopology</serviceId>
+        <controlURL>/ZoneGroupTopology/Control</controlURL>
+        <eventSubURL>/ZoneGroupTopology/Event</eventSubURL>
+        <SCPDURL>/xml/ZoneGroupTopology1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:GroupManagement:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:GroupManagement</serviceId>
+        <controlURL>/GroupManagement/Control</controlURL>
+        <eventSubURL>/GroupManagement/Event</eventSubURL>
+        <SCPDURL>/xml/GroupManagement1.xml</SCPDURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-tencent-com:service:QPlay:1</serviceType>
+        <serviceId>urn:tencent-com:serviceId:QPlay</serviceId>
+        <controlURL>/QPlay/Control</controlURL>
+        <eventSubURL>/QPlay/Event</eventSubURL>
+        <SCPDURL>/xml/QPlay1.xml</SCPDURL>
+      </service>
+    </serviceList>
+    <deviceList>
+      <device>
+  <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+  <friendlyName>192.168.178.58 - Sonos PLAY:3 Media Server</friendlyName>
+  <manufacturer>Sonos, Inc.</manufacturer>
+  <manufacturerURL>http://www.sonos.com</manufacturerURL>
+  <modelNumber>S3</modelNumber>
+  <modelDescription>Sonos PLAY:3 Media Server</modelDescription>
+  <modelName>Sonos PLAY:3</modelName>
+  <modelURL>http://www.sonos.com/products/zoneplayers/S3</modelURL>
+  <UDN>uuid:RINCON_000E5873442E01400_MS</UDN>
+  <serviceList>
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+      <serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId>
+      <controlURL>/MediaServer/ContentDirectory/Control</controlURL>
+      <eventSubURL>/MediaServer/ContentDirectory/Event</eventSubURL>
+      <SCPDURL>/xml/ContentDirectory1.xml</SCPDURL>
+    </service>
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+	    <controlURL>/MediaServer/ConnectionManager/Control</controlURL>
+	    <eventSubURL>/MediaServer/ConnectionManager/Event</eventSubURL>
+	    <SCPDURL>/xml/ConnectionManager1.xml</SCPDURL>
+	  </service>
+	</serviceList>
+      </device>
+      <device>
+	<deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+  <friendlyName>Schlafzimmer - Sonos PLAY:3 Media Renderer</friendlyName>
+  <manufacturer>Sonos, Inc.</manufacturer>
+  <manufacturerURL>http://www.sonos.com</manufacturerURL>
+  <modelNumber>S3</modelNumber>
+  <modelDescription>Sonos PLAY:3 Media Renderer</modelDescription>
+  <modelName>Sonos PLAY:3</modelName>
+  <modelURL>http://www.sonos.com/products/zoneplayers/S3</modelURL>
+	<UDN>uuid:RINCON_000E5873442E01400_MR</UDN>
+	<serviceList>
+	  <service>
+	    <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+	    <controlURL>/MediaRenderer/RenderingControl/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/RenderingControl/Event</eventSubURL>
+	    <SCPDURL>/xml/RenderingControl1.xml</SCPDURL>
+	  </service>
+	  <service>
+	    <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+	    <controlURL>/MediaRenderer/ConnectionManager/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/ConnectionManager/Event</eventSubURL>
+	    <SCPDURL>/xml/ConnectionManager1.xml</SCPDURL>
+	  </service>
+	  <service>
+	    <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+	    <controlURL>/MediaRenderer/AVTransport/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/AVTransport/Event</eventSubURL>
+	    <SCPDURL>/xml/AVTransport1.xml</SCPDURL>
+	  </service>
+	  <service>
+	    <serviceType>urn:schemas-sonos-com:service:Queue:1</serviceType>
+	    <serviceId>urn:sonos-com:serviceId:Queue</serviceId>
+	    <controlURL>/MediaRenderer/Queue/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/Queue/Event</eventSubURL>
+	    <SCPDURL>/xml/Queue1.xml</SCPDURL>
+	  </service>
+          <service>
+            <serviceType>urn:schemas-upnp-org:service:GroupRenderingControl:1</serviceType>
+            <serviceId>urn:upnp-org:serviceId:GroupRenderingControl</serviceId>
+            <controlURL>/MediaRenderer/GroupRenderingControl/Control</controlURL>
+            <eventSubURL>/MediaRenderer/GroupRenderingControl/Event</eventSubURL>
+            <SCPDURL>/xml/GroupRenderingControl1.xml</SCPDURL>
+          </service>
+	</serviceList>
+        <X_Rhapsody-Extension xmlns="http://www.real.com/rhapsody/xmlns/upnp-1-0">
+          <deviceID>urn:rhapsody-real-com:device-id-1-0:sonos_1:RINCON_000E5873442E01400</deviceID>
+            <deviceCapabilities>
+              <interactionPattern type="real-rhapsody-upnp-1-0"/>
+            </deviceCapabilities>
+        </X_Rhapsody-Extension>
+        <qq:X_QPlay_SoftwareCapability xmlns:qq="http://www.tencent.com">QPlay:2</qq:X_QPlay_SoftwareCapability>
+        <iconList>
+          <icon>
+            <mimetype>image/png</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>24</depth>
+            <url>/img/icon-S3.png</url>
+          </icon>
+        </iconList>
+      </device>
+    </deviceList>
+  </device>
+</root>
+
+08-12 22:17:39 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.58
+08-12 22:17:39 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/ConnectionManager/Control HTTP/1.1" 200 2022
+08-12 22:17:39 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending GET_PROTOCOL_INFO to http://192.168.178.58:1400/MediaRenderer/ConnectionManager/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:ConnectionManager:1#GetProtocolInfo"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:GetProtocolInfo xmlns:u="urn:schemas-upnp-org:service:ConnectionManager:1">
+        </u:GetProtocolInfo>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:GetProtocolInfoResponse xmlns:u="urn:schemas-upnp-org:service:ConnectionManager:1"><Source></Source><Sink>http-get:*:audio/mp3:*,x-file-cifs:*:audio/mp3:*,http-get:*:audio/mp4:*,x-file-cifs:*:audio/mp4:*,http-get:*:audio/mpeg:*,x-file-cifs:*:audio/mpeg:*,http-get:*:audio/mpegurl:*,x-file-cifs:*:audio/mpegurl:*,real.com-rhapsody-http-1-0:*:audio/mpegurl:*,file:*:audio/mpegurl:*,http-get:*:audio/mpeg3:*,x-file-cifs:*:audio/mpeg3:*,http-get:*:audio/wav:*,x-file-cifs:*:audio/wav:*,http-get:*:audio/wma:*,x-file-cifs:*:audio/wma:*,http-get:*:audio/x-ms-wma:*,x-file-cifs:*:audio/x-ms-wma:*,http-get:*:audio/aiff:*,x-file-cifs:*:audio/aiff:*,http-get:*:audio/flac:*,x-file-cifs:*:audio/flac:*,http-get:*:application/ogg:*,x-file-cifs:*:application/ogg:*,http-get:*:audio/audible:*,x-file-cifs:*:audio/audible:*,real.com-rhapsody-http-1-0:*:audio/x-ms-wma:*,real.com-rhapsody-direct:*:audio/mp3:*,sonos.com-mms:*:audio/x-ms-wma:*,sonos.com-http:*:audio/mpeg3:*,sonos.com-http:*:audio/mpeg:*,sonos.com-http:*:audio/wma:*,sonos.com-http:*:audio/mp4:*,sonos.com-http:*:audio/wav:*,sonos.com-http:*:audio/aiff:*,sonos.com-http:*:audio/flac:*,sonos.com-http:*:application/ogg:*,sonos.com-spotify:*:audio/x-spotify:*,sonos.com-rtrecent:*:audio/x-sonos-recent:*,real.com-rhapsody-http-1-0:*:audio/x-rhap-radio:*,real.com-rhapsody-direct:*:audio/x-rhap-radio:*,pandora.com-pndrradio:*:audio/x-pandora-radio:*,pandora.com-pndrradio-http:*:audio/mpeg3:*,sirius.com-sirradio:*:audio/x-sirius-radio:*,x-rincon:*:*:*,x-rincon-mp3radio:*:*:*,x-rincon-playlist:*:*:*,x-rincon-queue:*:*:*,x-rincon-stream:*:*:*,x-sonosapi-stream:*:*:*,x-sonosapi-hls:*:*:*,x-sonosapi-radio:*:audio/x-sonosapi-radio:*,x-sonosapi-iqradio:*:audio/x-sonosapi-iqradio:*,x-rincon-cpcontainer:*:*:*,last.fm-radio:*:audio/x-lastfm-radio:*,last.fm-radio-http:*:audio/mpeg3:*</Sink></u:GetProtocolInfoResponse></s:Body></s:Envelope>
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:AlarmClock:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:service:AlarmClock:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:MusicServices:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:service:MusicServices:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:DeviceProperties:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:service:DeviceProperties:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:SystemProperties:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:service:SystemProperties:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:ZoneGroupTopology:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:service:ZoneGroupTopology:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:GroupManagement:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-upnp-org:service:GroupManagement:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-tencent-com:service:QPlay:1
+USN: uuid:RINCON_000E5873442E01400::urn:schemas-tencent-com:service:QPlay:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:ContentDirectory:1
+USN: uuid:RINCON_000E5873442E01400_MS::urn:schemas-upnp-org:service:ContentDirectory:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:RINCON_000E5873442E01400_MS::urn:schemas-upnp-org:service:ConnectionManager:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:RenderingControl:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-upnp-org:service:RenderingControl:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:ConnectionManager:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-upnp-org:service:ConnectionManager:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:39 pulseaudio_dlna.discover                       DEBUG    Recieved the following SSDP header: 
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age = 1800
+EXT:
+LOCATION: http://192.168.178.58:1400/xml/device_description.xml
+SERVER: Linux UPnP/1.0 Sonos/29.5-91030 (ZPS3)
+ST: urn:schemas-upnp-org:service:AVTransport:1
+USN: uuid:RINCON_000E5873442E01400_MR::urn:schemas-upnp-org:service:AVTransport:1
+X-RINCON-HOUSEHOLD: Sonos_XiOy5pGvw00p7IFxjC0mzrAEg4
+X-RINCON-BOOTSEQ: 37
+
+
+08-12 22:17:44 pulseaudio_dlna.listener                       INFO     Discovery complete.
+08-12 22:17:45 pulseaudio_dlna.pulseaudio                     INFO     Added the device "42LS560S-ZC (DLNA)".
+08-12 22:17:45 pulseaudio_dlna.pulseaudio                     INFO     Added the device "Wohnzimmer (Chromecast)".
+08-12 22:17:46 pulseaudio_dlna.pulseaudio                     INFO     Added the device "192.168.178.58 - Sonos PLAY:3 (DLNA)".
+08-12 22:18:33 pulseaudio_dlna.pulseaudio                     INFO     on_new_playback_stream "/org/pulseaudio/core1/playback_stream8"
+08-12 22:18:33 pulseaudio_dlna.pulseaudio                     INFO     on_playback_stream_removed "/org/pulseaudio/core1/playback_stream8"
+08-12 22:18:33 pulseaudio_dlna.pulseaudio                     INFO     on_new_playback_stream "/org/pulseaudio/core1/playback_stream9"
+08-12 22:18:33 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.42
+08-12 22:18:33 requests.packages.urllib3.connectionpool       DEBUG    "GET /xml/device_description.xml HTTP/1.1" 200 None
+08-12 22:18:33 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    Response from UPNP device (http://192.168.178.42:1400/xml/device_description.xml)
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:schemas-upnp-org:device:ZonePlayer:1</deviceType>
+    <friendlyName>192.168.178.42 - Sonos PLAY:3</friendlyName>
+    <manufacturer>Sonos, Inc.</manufacturer>
+    <manufacturerURL>http://www.sonos.com</manufacturerURL>
+    <modelNumber>S3</modelNumber>
+    <modelDescription>Sonos PLAY:3</modelDescription>
+    <modelName>Sonos PLAY:3</modelName>
+    <modelURL>http://www.sonos.com/products/zoneplayers/S3</modelURL>
+    <softwareVersion>29.5-91030</softwareVersion>
+    <hardwareVersion>1.8.1.2-2</hardwareVersion>
+    <serialNum>00-0E-58-74-7B-86:2</serialNum>
+    <UDN>uuid:RINCON_000E58747B8601400</UDN>
+    <iconList>
+      <icon>
+        <id>0</id>
+        <mimetype>image/png</mimetype>
+        <width>48</width>
+        <height>48</height>
+        <depth>24</depth>
+        <url>/img/icon-S3.png</url>
+      </icon>
+    </iconList>
+    <minCompatibleVersion>28.0-00000</minCompatibleVersion>
+    <legacyCompatibleVersion>24.0-0000</legacyCompatibleVersion>
+    <displayVersion>5.4</displayVersion>
+    <extraVersion>OTP: </extraVersion>
+    <roomName>KÃ¼che</roomName>
+    <displayName>PLAY:3</displayName>
+    <zoneType>7</zoneType>
+    <feature1>0x00000000</feature1>
+    <feature2>0x00006332</feature2>
+    <feature3>0x0003002e</feature3>
+    <internalSpeakerSize>4</internalSpeakerSize>
+    <bassExtension>60.000</bassExtension>
+    <satGainOffset>3.000</satGainOffset>
+    <memory>64</memory>
+    <flash>64</flash>
+    <ampOnTime>425</ampOnTime>
+    <serviceList>
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:AlarmClock:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:AlarmClock</serviceId>
+        <controlURL>/AlarmClock/Control</controlURL>
+        <eventSubURL>/AlarmClock/Event</eventSubURL>
+        <SCPDURL>/xml/AlarmClock1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:MusicServices:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:MusicServices</serviceId>
+        <controlURL>/MusicServices/Control</controlURL>
+        <eventSubURL>/MusicServices/Event</eventSubURL>
+        <SCPDURL>/xml/MusicServices1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:DeviceProperties:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:DeviceProperties</serviceId>
+        <controlURL>/DeviceProperties/Control</controlURL>
+        <eventSubURL>/DeviceProperties/Event</eventSubURL>
+        <SCPDURL>/xml/DeviceProperties1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:SystemProperties:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:SystemProperties</serviceId>
+        <controlURL>/SystemProperties/Control</controlURL>
+        <eventSubURL>/SystemProperties/Event</eventSubURL>
+        <SCPDURL>/xml/SystemProperties1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:ZoneGroupTopology:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:ZoneGroupTopology</serviceId>
+        <controlURL>/ZoneGroupTopology/Control</controlURL>
+        <eventSubURL>/ZoneGroupTopology/Event</eventSubURL>
+        <SCPDURL>/xml/ZoneGroupTopology1.xml</SCPDURL>
+      </service>    
+      <service>
+        <serviceType>urn:schemas-upnp-org:service:GroupManagement:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:GroupManagement</serviceId>
+        <controlURL>/GroupManagement/Control</controlURL>
+        <eventSubURL>/GroupManagement/Event</eventSubURL>
+        <SCPDURL>/xml/GroupManagement1.xml</SCPDURL>
+      </service>
+      <service>
+        <serviceType>urn:schemas-tencent-com:service:QPlay:1</serviceType>
+        <serviceId>urn:tencent-com:serviceId:QPlay</serviceId>
+        <controlURL>/QPlay/Control</controlURL>
+        <eventSubURL>/QPlay/Event</eventSubURL>
+        <SCPDURL>/xml/QPlay1.xml</SCPDURL>
+      </service>
+    </serviceList>
+    <deviceList>
+      <device>
+  <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+  <friendlyName>192.168.178.42 - Sonos PLAY:3 Media Server</friendlyName>
+  <manufacturer>Sonos, Inc.</manufacturer>
+  <manufacturerURL>http://www.sonos.com</manufacturerURL>
+  <modelNumber>S3</modelNumber>
+  <modelDescription>Sonos PLAY:3 Media Server</modelDescription>
+  <modelName>Sonos PLAY:3</modelName>
+  <modelURL>http://www.sonos.com/products/zoneplayers/S3</modelURL>
+  <UDN>uuid:RINCON_000E58747B8601400_MS</UDN>
+  <serviceList>
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+      <serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId>
+      <controlURL>/MediaServer/ContentDirectory/Control</controlURL>
+      <eventSubURL>/MediaServer/ContentDirectory/Event</eventSubURL>
+      <SCPDURL>/xml/ContentDirectory1.xml</SCPDURL>
+    </service>
+    <service>
+      <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+	    <controlURL>/MediaServer/ConnectionManager/Control</controlURL>
+	    <eventSubURL>/MediaServer/ConnectionManager/Event</eventSubURL>
+	    <SCPDURL>/xml/ConnectionManager1.xml</SCPDURL>
+	  </service>
+	</serviceList>
+      </device>
+      <device>
+	<deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>
+  <friendlyName>KÃ¼che - Sonos PLAY:3 Media Renderer</friendlyName>
+  <manufacturer>Sonos, Inc.</manufacturer>
+  <manufacturerURL>http://www.sonos.com</manufacturerURL>
+  <modelNumber>S3</modelNumber>
+  <modelDescription>Sonos PLAY:3 Media Renderer</modelDescription>
+  <modelName>Sonos PLAY:3</modelName>
+  <modelURL>http://www.sonos.com/products/zoneplayers/S3</modelURL>
+	<UDN>uuid:RINCON_000E58747B8601400_MR</UDN>
+	<serviceList>
+	  <service>
+	    <serviceType>urn:schemas-upnp-org:service:RenderingControl:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:RenderingControl</serviceId>
+	    <controlURL>/MediaRenderer/RenderingControl/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/RenderingControl/Event</eventSubURL>
+	    <SCPDURL>/xml/RenderingControl1.xml</SCPDURL>
+	  </service>
+	  <service>
+	    <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+	    <controlURL>/MediaRenderer/ConnectionManager/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/ConnectionManager/Event</eventSubURL>
+	    <SCPDURL>/xml/ConnectionManager1.xml</SCPDURL>
+	  </service>
+	  <service>
+	    <serviceType>urn:schemas-upnp-org:service:AVTransport:1</serviceType>
+	    <serviceId>urn:upnp-org:serviceId:AVTransport</serviceId>
+	    <controlURL>/MediaRenderer/AVTransport/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/AVTransport/Event</eventSubURL>
+	    <SCPDURL>/xml/AVTransport1.xml</SCPDURL>
+	  </service>
+	  <service>
+	    <serviceType>urn:schemas-sonos-com:service:Queue:1</serviceType>
+	    <serviceId>urn:sonos-com:serviceId:Queue</serviceId>
+	    <controlURL>/MediaRenderer/Queue/Control</controlURL>
+	    <eventSubURL>/MediaRenderer/Queue/Event</eventSubURL>
+	    <SCPDURL>/xml/Queue1.xml</SCPDURL>
+	  </service>
+          <service>
+            <serviceType>urn:schemas-upnp-org:service:GroupRenderingControl:1</serviceType>
+            <serviceId>urn:upnp-org:serviceId:GroupRenderingControl</serviceId>
+            <controlURL>/MediaRenderer/GroupRenderingControl/Control</controlURL>
+            <eventSubURL>/MediaRenderer/GroupRenderingControl/Event</eventSubURL>
+            <SCPDURL>/xml/GroupRenderingControl1.xml</SCPDURL>
+          </service>
+	</serviceList>
+        <X_Rhapsody-Extension xmlns="http://www.real.com/rhapsody/xmlns/upnp-1-0">
+          <deviceID>urn:rhapsody-real-com:device-id-1-0:sonos_1:RINCON_000E58747B8601400</deviceID>
+            <deviceCapabilities>
+              <interactionPattern type="real-rhapsody-upnp-1-0"/>
+            </deviceCapabilities>
+        </X_Rhapsody-Extension>
+        <qq:X_QPlay_SoftwareCapability xmlns:qq="http://www.tencent.com">QPlay:2</qq:X_QPlay_SoftwareCapability>
+        <iconList>
+          <icon>
+            <mimetype>image/png</mimetype>
+            <width>48</width>
+            <height>48</height>
+            <depth>24</depth>
+            <url>/img/icon-S3.png</url>
+          </icon>
+        </iconList>
+      </device>
+    </deviceList>
+  </device>
+</root>
+
+08-12 22:18:33 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.42
+08-12 22:18:33 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/ConnectionManager/Control HTTP/1.1" 200 2022
+08-12 22:18:33 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending GET_PROTOCOL_INFO to http://192.168.178.42:1400/MediaRenderer/ConnectionManager/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:ConnectionManager:1#GetProtocolInfo"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:GetProtocolInfo xmlns:u="urn:schemas-upnp-org:service:ConnectionManager:1">
+        </u:GetProtocolInfo>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:GetProtocolInfoResponse xmlns:u="urn:schemas-upnp-org:service:ConnectionManager:1"><Source></Source><Sink>http-get:*:audio/mp3:*,x-file-cifs:*:audio/mp3:*,http-get:*:audio/mp4:*,x-file-cifs:*:audio/mp4:*,http-get:*:audio/mpeg:*,x-file-cifs:*:audio/mpeg:*,http-get:*:audio/mpegurl:*,x-file-cifs:*:audio/mpegurl:*,real.com-rhapsody-http-1-0:*:audio/mpegurl:*,file:*:audio/mpegurl:*,http-get:*:audio/mpeg3:*,x-file-cifs:*:audio/mpeg3:*,http-get:*:audio/wav:*,x-file-cifs:*:audio/wav:*,http-get:*:audio/wma:*,x-file-cifs:*:audio/wma:*,http-get:*:audio/x-ms-wma:*,x-file-cifs:*:audio/x-ms-wma:*,http-get:*:audio/aiff:*,x-file-cifs:*:audio/aiff:*,http-get:*:audio/flac:*,x-file-cifs:*:audio/flac:*,http-get:*:application/ogg:*,x-file-cifs:*:application/ogg:*,http-get:*:audio/audible:*,x-file-cifs:*:audio/audible:*,real.com-rhapsody-http-1-0:*:audio/x-ms-wma:*,real.com-rhapsody-direct:*:audio/mp3:*,sonos.com-mms:*:audio/x-ms-wma:*,sonos.com-http:*:audio/mpeg3:*,sonos.com-http:*:audio/mpeg:*,sonos.com-http:*:audio/wma:*,sonos.com-http:*:audio/mp4:*,sonos.com-http:*:audio/wav:*,sonos.com-http:*:audio/aiff:*,sonos.com-http:*:audio/flac:*,sonos.com-http:*:application/ogg:*,sonos.com-spotify:*:audio/x-spotify:*,sonos.com-rtrecent:*:audio/x-sonos-recent:*,real.com-rhapsody-http-1-0:*:audio/x-rhap-radio:*,real.com-rhapsody-direct:*:audio/x-rhap-radio:*,pandora.com-pndrradio:*:audio/x-pandora-radio:*,pandora.com-pndrradio-http:*:audio/mpeg3:*,sirius.com-sirradio:*:audio/x-sirius-radio:*,x-rincon:*:*:*,x-rincon-mp3radio:*:*:*,x-rincon-playlist:*:*:*,x-rincon-queue:*:*:*,x-rincon-stream:*:*:*,x-sonosapi-stream:*:*:*,x-sonosapi-hls:*:*:*,x-sonosapi-radio:*:audio/x-sonosapi-radio:*,x-sonosapi-iqradio:*:audio/x-sonosapi-iqradio:*,x-rincon-cpcontainer:*:*:*,last.fm-radio:*:audio/x-lastfm-radio:*,last.fm-radio-http:*:audio/mpeg3:*</Sink></u:GetProtocolInfoResponse></s:Body></s:Envelope>
+08-12 22:18:34 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink0
+08-12 22:18:34 pulseaudio_dlna.pulseaudio                     INFO     Added the device "192.168.178.42 - Sonos PLAY:3 (DLNA)".
+08-12 22:18:44 pulseaudio_dlna.pulseaudio                     INFO     on_device_updated "/org/pulseaudio/core1/sink3"
+08-12 22:18:44 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink3
+08-12 22:18:44 pulseaudio_dlna.pulseaudio                     INFO     Instructing the device "192.168.178.58 - Sonos PLAY:3 (DLNA)" to play ...
+08-12 22:18:44 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.58
+08-12 22:18:44 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/AVTransport/Control HTTP/1.1" 200 266
+08-12 22:18:44 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending REGISTER to http://192.168.178.58:1400/MediaRenderer/AVTransport/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#SetAVTransportURI"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:SetAVTransportURI xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+            <CurrentURI>http://192.168.178.49:8080/19216817858sonosplay3_dlna.mp3</CurrentURI>
+            <CurrentURIMetaData>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/" xmlns:sec="http://www.sec.co.kr/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"&gt;
+    &lt;item id="0" parentID="0" restricted="1"&gt;
+        &lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;
+        &lt;dc:title&gt;Live Audio&lt;/dc:title&gt;
+        &lt;dc:creator&gt;PulseAudio&lt;/dc:creator&gt;
+        &lt;upnp:artist&gt;PulseAudio on estrellita&lt;/upnp:artist&gt;
+        &lt;upnp:albumArtURI&gt;&lt;/upnp:albumArtURI&gt;
+        &lt;upnp:album&gt;Stream&lt;/upnp:album&gt;
+        &lt;res protocolInfo="http-get:*:audio/mpeg:DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"&gt;http://192.168.178.49:8080/19216817858sonosplay3_dlna.mp3&lt;/res&gt;
+    &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+</CurrentURIMetaData>
+        </u:SetAVTransportURI>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:SetAVTransportURIResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:SetAVTransportURIResponse></s:Body></s:Envelope>
+08-12 22:18:44 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.58
+08-12 22:18:44 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/AVTransport/Control HTTP/1.1" 200 240
+08-12 22:18:44 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending PLAY to http://192.168.178.58:1400/MediaRenderer/AVTransport/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#Play"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:Play xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+            <Speed>1</Speed>
+        </u:Play>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:PlayResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:PlayResponse></s:Body></s:Envelope>
+08-12 22:18:44 pulseaudio_dlna.pulseaudio                     INFO     The device "192.168.178.58 - Sonos PLAY:3 (DLNA)" is playing.
+08-12 22:18:44 pulseaudio_dlna.streamserver                   DEBUG    Got the following GET request:
+[
+  [
+    "connection", 
+    "close"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "accept", 
+    "*/*"
+  ], 
+  [
+    "user-agent", 
+    "Sonos"
+  ]
+]
+08-12 22:18:44 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /19216817858sonosplay3_dlna.mp3 (HTTP/1.1)
+08-12 22:18:44 pulseaudio_dlna.streamserver                   INFO     Got request from SonosZP.fritz.box - GET /19216817858sonosplay3_dlna.mp3 HTTP/1.1,200,-
+08-12 22:18:44 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:18:44 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.58 registered to stream /19216817858sonosplay3_dlna.mp3.
+08-12 22:18:44 pulseaudio_dlna.streamserver                   DEBUG    Starting processes "parec --format=s16le -d 19216817858sonosplay3_dlna.monitor | lame -b 192 -r -"
+08-12 22:18:44 pulseaudio_dlna.streamserver                   INFO     Processes of /19216817858sonosplay3_dlna.mp3 initialized ...
+08-12 22:18:45 pulseaudio_dlna.streamserver                   DEBUG    Got the following HEAD request:
+[
+  [
+    "connection", 
+    "close"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "user-agent", 
+    "Sonos"
+  ]
+]
+08-12 22:18:45 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /19216817858sonosplay3_dlna.mp3 (HTTP/1.1)
+08-12 22:18:45 pulseaudio_dlna.streamserver                   INFO     Got request from SonosZP.fritz.box - HEAD /19216817858sonosplay3_dlna.mp3 HTTP/1.1,200,-
+08-12 22:18:45 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:18:45 pulseaudio_dlna.streamserver                   INFO     Read data from socket ""
+08-12 22:18:45 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.58 unregistered stream /19216817858sonosplay3_dlna.mp3 using method 2.
+08-12 22:18:46 pulseaudio_dlna.streamserver                   DEBUG    Socket died, releasing request thread.
+08-12 22:18:48 pulseaudio_dlna.streamserver                   INFO     Stream closed. Cleaning up remaining processes ...
+08-12 22:18:48 pulseaudio_dlna.streamserver                   INFO     Device "192.168.178.58 - Sonos PLAY:3" disconnected.
+08-12 22:18:48 pulseaudio_dlna.pulseaudio                     INFO     on_device_updated "/org/pulseaudio/core1/sink0"
+08-12 22:18:48 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink0
+08-12 22:18:48 pulseaudio_dlna.pulseaudio                     INFO     Instructing the device "192.168.178.58 - Sonos PLAY:3 (DLNA)" to stop ...
+08-12 22:18:48 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.58
+08-12 22:18:48 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/AVTransport/Control HTTP/1.1" 200 240
+08-12 22:18:48 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending STOP to http://192.168.178.58:1400/MediaRenderer/AVTransport/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#Stop"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:Stop xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+        </u:Stop>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:StopResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:StopResponse></s:Body></s:Envelope>
+08-12 22:18:48 pulseaudio_dlna.pulseaudio                     INFO     The device "192.168.178.58 - Sonos PLAY:3 (DLNA)" was stopped.
+08-12 22:18:52 pulseaudio_dlna.pulseaudio                     INFO     on_device_updated "/org/pulseaudio/core1/sink4"
+08-12 22:18:53 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink4
+08-12 22:18:53 pulseaudio_dlna.pulseaudio                     INFO     Instructing the device "192.168.178.42 - Sonos PLAY:3 (DLNA)" to play ...
+08-12 22:18:53 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.42
+08-12 22:18:53 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/AVTransport/Control HTTP/1.1" 200 266
+08-12 22:18:53 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending REGISTER to http://192.168.178.42:1400/MediaRenderer/AVTransport/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#SetAVTransportURI"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:SetAVTransportURI xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+            <CurrentURI>http://192.168.178.49:8080/19216817842sonosplay3_dlna.mp3</CurrentURI>
+            <CurrentURIMetaData>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/" xmlns:sec="http://www.sec.co.kr/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"&gt;
+    &lt;item id="0" parentID="0" restricted="1"&gt;
+        &lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;
+        &lt;dc:title&gt;Live Audio&lt;/dc:title&gt;
+        &lt;dc:creator&gt;PulseAudio&lt;/dc:creator&gt;
+        &lt;upnp:artist&gt;PulseAudio on estrellita&lt;/upnp:artist&gt;
+        &lt;upnp:albumArtURI&gt;&lt;/upnp:albumArtURI&gt;
+        &lt;upnp:album&gt;Stream&lt;/upnp:album&gt;
+        &lt;res protocolInfo="http-get:*:audio/mpeg:DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"&gt;http://192.168.178.49:8080/19216817842sonosplay3_dlna.mp3&lt;/res&gt;
+    &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+</CurrentURIMetaData>
+        </u:SetAVTransportURI>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:SetAVTransportURIResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:SetAVTransportURIResponse></s:Body></s:Envelope>
+08-12 22:18:53 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.42
+08-12 22:18:53 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/AVTransport/Control HTTP/1.1" 200 240
+08-12 22:18:53 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending PLAY to http://192.168.178.42:1400/MediaRenderer/AVTransport/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#Play"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:Play xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+            <Speed>1</Speed>
+        </u:Play>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:PlayResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:PlayResponse></s:Body></s:Envelope>
+08-12 22:18:53 pulseaudio_dlna.pulseaudio                     INFO     The device "192.168.178.42 - Sonos PLAY:3 (DLNA)" is playing.
+08-12 22:18:53 pulseaudio_dlna.streamserver                   DEBUG    Got the following GET request:
+[
+  [
+    "connection", 
+    "close"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "accept", 
+    "*/*"
+  ], 
+  [
+    "user-agent", 
+    "Sonos"
+  ]
+]
+08-12 22:18:53 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /19216817842sonosplay3_dlna.mp3 (HTTP/1.1)
+08-12 22:18:53 pulseaudio_dlna.streamserver                   INFO     Got request from SonosZP.fritz.box - GET /19216817842sonosplay3_dlna.mp3 HTTP/1.1,200,-
+08-12 22:18:53 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:18:53 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.42 registered to stream /19216817842sonosplay3_dlna.mp3.
+08-12 22:18:53 pulseaudio_dlna.streamserver                   DEBUG    Starting processes "parec --format=s16le -d 19216817842sonosplay3_dlna.monitor | lame -b 192 -r -"
+08-12 22:18:53 pulseaudio_dlna.streamserver                   INFO     Processes of /19216817842sonosplay3_dlna.mp3 initialized ...
+08-12 22:18:54 pulseaudio_dlna.streamserver                   DEBUG    Got the following HEAD request:
+[
+  [
+    "connection", 
+    "close"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "user-agent", 
+    "Sonos"
+  ]
+]
+08-12 22:18:54 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /19216817842sonosplay3_dlna.mp3 (HTTP/1.1)
+08-12 22:18:54 pulseaudio_dlna.streamserver                   INFO     Got request from SonosZP.fritz.box - HEAD /19216817842sonosplay3_dlna.mp3 HTTP/1.1,200,-
+08-12 22:18:54 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:18:54 pulseaudio_dlna.streamserver                   INFO     Read data from socket ""
+08-12 22:18:54 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.42 unregistered stream /19216817842sonosplay3_dlna.mp3 using method 2.
+08-12 22:18:55 pulseaudio_dlna.streamserver                   DEBUG    Socket died, releasing request thread.
+08-12 22:18:57 pulseaudio_dlna.streamserver                   INFO     Stream closed. Cleaning up remaining processes ...
+08-12 22:18:57 pulseaudio_dlna.streamserver                   INFO     Device "192.168.178.42 - Sonos PLAY:3" disconnected.
+08-12 22:18:57 pulseaudio_dlna.pulseaudio                     INFO     on_device_updated "/org/pulseaudio/core1/sink0"
+08-12 22:18:57 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink0
+08-12 22:18:57 pulseaudio_dlna.pulseaudio                     INFO     Instructing the device "192.168.178.42 - Sonos PLAY:3 (DLNA)" to stop ...
+08-12 22:18:57 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.42
+08-12 22:18:57 requests.packages.urllib3.connectionpool       DEBUG    "POST /MediaRenderer/AVTransport/Control HTTP/1.1" 200 240
+08-12 22:18:57 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending STOP to http://192.168.178.42:1400/MediaRenderer/AVTransport/Control:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#Stop"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:Stop xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+        </u:Stop>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:StopResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:StopResponse></s:Body></s:Envelope>
+08-12 22:18:57 pulseaudio_dlna.pulseaudio                     INFO     The device "192.168.178.42 - Sonos PLAY:3 (DLNA)" was stopped.
+08-12 22:19:02 pulseaudio_dlna.pulseaudio                     INFO     on_device_updated "/org/pulseaudio/core1/sink1"
+08-12 22:19:02 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink1
+08-12 22:19:02 pulseaudio_dlna.pulseaudio                     INFO     Instructing the device "42LS560S-ZC (DLNA)" to play ...
+08-12 22:19:02 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.22
+08-12 22:19:02 pulseaudio_dlna.streamserver                   DEBUG    Got the following HEAD request:
+[
+  [
+    "accept-language", 
+    "ko-kr, ko;q=0.8, en-us;q=0.5, en;q=0.3"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "accept", 
+    "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, text/html, text/xml, text/plain, application/json, application/atom+xml, application/xml, */*"
+  ], 
+  [
+    "user-agent", 
+    "Mozilla/5.0 (compatible; LG-HttpClient-v1.0.3 DLNADOC/1.50 UPnP/1.1; MSIE 8.0; Windows NT 5.1; LG_UA; AD_LOGON=LGE.NET; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; LG_UA; AD_LOGON=LGE.NET; LG NetCast.TV-2012)"
+  ], 
+  [
+    "connection", 
+    "Close"
+  ], 
+  [
+    "pragma", 
+    "no-cache"
+  ], 
+  [
+    "cache-control", 
+    "no-cache"
+  ]
+]
+08-12 22:19:02 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /42ls560szc_dlna.mp3 (HTTP/1.1)
+08-12 22:19:02 pulseaudio_dlna.streamserver                   INFO     Got request from 192.168.178.22 - HEAD /42ls560szc_dlna.mp3 HTTP/1.1,200,-
+08-12 22:19:02 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:19:06 requests.packages.urllib3.connectionpool       DEBUG    "POST /upnp/control/AVTransport1 HTTP/1.1" 200 269
+08-12 22:19:06 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending REGISTER to http://192.168.178.22:37904/upnp/control/AVTransport1:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#SetAVTransportURI"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:SetAVTransportURI xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+            <CurrentURI>http://192.168.178.49:8080/42ls560szc_dlna.mp3</CurrentURI>
+            <CurrentURIMetaData>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0/" xmlns:sec="http://www.sec.co.kr/" xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"&gt;
+    &lt;item id="0" parentID="0" restricted="1"&gt;
+        &lt;upnp:class&gt;object.item.audioItem.musicTrack&lt;/upnp:class&gt;
+        &lt;dc:title&gt;Live Audio&lt;/dc:title&gt;
+        &lt;dc:creator&gt;PulseAudio&lt;/dc:creator&gt;
+        &lt;upnp:artist&gt;PulseAudio on estrellita&lt;/upnp:artist&gt;
+        &lt;upnp:albumArtURI&gt;&lt;/upnp:albumArtURI&gt;
+        &lt;upnp:album&gt;Stream&lt;/upnp:album&gt;
+        &lt;res protocolInfo="http-get:*:audio/mpeg:DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"&gt;http://192.168.178.49:8080/42ls560szc_dlna.mp3&lt;/res&gt;
+    &lt;/item&gt;
+&lt;/DIDL-Lite&gt;
+</CurrentURIMetaData>
+        </u:SetAVTransportURI>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body>
+<u:SetAVTransportURIResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:SetAVTransportURIResponse>
+</s:Body> </s:Envelope>
+08-12 22:19:06 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.22
+08-12 22:19:06 pulseaudio_dlna.streamserver                   DEBUG    Got the following GET request:
+[
+  [
+    "accept-language", 
+    "ko-kr, ko;q=0.8, en-us;q=0.5, en;q=0.3"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "accept", 
+    "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, text/html, text/xml, text/plain, application/json, application/atom+xml, application/xml, */*"
+  ], 
+  [
+    "user-agent", 
+    "Mozilla/5.0 (compatible; LG-HttpClient-v1.0.3 DLNADOC/1.50 UPnP/1.1; MSIE 8.0; Windows NT 5.1; LG_UA; AD_LOGON=LGE.NET; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; LG_UA; AD_LOGON=LGE.NET; LG NetCast.TV-2012)"
+  ], 
+  [
+    "connection", 
+    "Close"
+  ], 
+  [
+    "pragma", 
+    "no-cache"
+  ], 
+  [
+    "cache-control", 
+    "no-cache"
+  ]
+]
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /42ls560szc_dlna.mp3 (HTTP/1.1)
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Got request from 192.168.178.22 - GET /42ls560szc_dlna.mp3 HTTP/1.1,200,-
+08-12 22:19:06 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.22 registered to stream /42ls560szc_dlna.mp3.
+08-12 22:19:06 pulseaudio_dlna.streamserver                   DEBUG    Starting processes "parec --format=s16le -d 42ls560szc_dlna.monitor | lame -b 192 -r -"
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Processes of /42ls560szc_dlna.mp3 initialized ...
+08-12 22:19:06 pulseaudio_dlna.streamserver                   DEBUG    Got the following GET request:
+[
+  [
+    "accept-language", 
+    "ko-kr, ko;q=0.8, en-us;q=0.5, en;q=0.3"
+  ], 
+  [
+    "host", 
+    "192.168.178.49:8080"
+  ], 
+  [
+    "accept", 
+    "image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, image/png, text/html, text/xml, text/plain, application/json, application/atom+xml, application/xml, */*"
+  ], 
+  [
+    "user-agent", 
+    "Mozilla/5.0 (compatible; LG-HttpClient-v1.0.3 DLNADOC/1.50 UPnP/1.1; MSIE 8.0; Windows NT 5.1; LG_UA; AD_LOGON=LGE.NET; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; LG_UA; AD_LOGON=LGE.NET; LG NetCast.TV-2012)"
+  ], 
+  [
+    "connection", 
+    "Close"
+  ], 
+  [
+    "pragma", 
+    "no-cache"
+  ], 
+  [
+    "cache-control", 
+    "no-cache"
+  ]
+]
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Requested streaming URL was: /42ls560szc_dlna.mp3 (HTTP/1.1)
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Got request from 192.168.178.22 - GET /42ls560szc_dlna.mp3 HTTP/1.1,200,-
+08-12 22:19:06 pulseaudio_dlna.streamserver                   DEBUG    Sending header:
+{
+  "transferMode.dlna.org": "Streaming", 
+  "Connection": "close", 
+  "Content-Type": "audio/mpeg", 
+  "Ext": "", 
+  "contentFeatures.dlna.org": "DLNA.ORG_OP=00;DLNA.ORG_CI=0;DLNA.ORG_FLAGS=01700000000000000000000000000000"
+}
+08-12 22:19:06 requests.packages.urllib3.connectionpool       DEBUG    "POST /upnp/control/AVTransport1 HTTP/1.1" 200 243
+08-12 22:19:06 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending PLAY to http://192.168.178.22:37904/upnp/control/AVTransport1:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#Play"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:Play xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+            <Speed>1</Speed>
+        </u:Play>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body>
+<u:PlayResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:PlayResponse>
+</s:Body> </s:Envelope>
+08-12 22:19:06 pulseaudio_dlna.pulseaudio                     INFO     The device "42LS560S-ZC (DLNA)" is playing.
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Read data from socket ""
+08-12 22:19:06 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.22 registered to stream /42ls560szc_dlna.mp3.
+08-12 22:19:07 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.22 unregistered stream /42ls560szc_dlna.mp3 using method 2.
+08-12 22:19:07 pulseaudio_dlna.streamserver                   DEBUG    Socket died, releasing request thread.
+08-12 22:19:18 pulseaudio_dlna.pulseaudio                     INFO     on_device_updated "/org/pulseaudio/core1/sink0"
+08-12 22:19:19 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink0
+08-12 22:19:19 pulseaudio_dlna.pulseaudio                     INFO     Instructing the device "42LS560S-ZC (DLNA)" to stop ...
+08-12 22:19:19 requests.packages.urllib3.connectionpool       INFO     Starting new HTTP connection (1): 192.168.178.22
+08-12 22:19:19 requests.packages.urllib3.connectionpool       DEBUG    "POST /upnp/control/AVTransport1 HTTP/1.1" 200 243
+08-12 22:19:19 pulseaudio_dlna.plugins.upnp.renderer          DEBUG    sending STOP to http://192.168.178.22:37904/upnp/control/AVTransport1:
+ - headers:
+{u'SOAPAction': u'"urn:schemas-upnp-org:service:AVTransport:1#Stop"', u'Content-Type': u'text/xml; charset="utf-8"'}
+ - data:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<s:Envelope s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <u:Stop xmlns:u="urn:schemas-upnp-org:service:AVTransport:1">
+            <InstanceID>0</InstanceID>
+        </u:Stop>
+    </s:Body>
+</s:Envelope>
+ - result: 200
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body>
+<u:StopResponse xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"></u:StopResponse>
+</s:Body> </s:Envelope>
+08-12 22:19:19 pulseaudio_dlna.pulseaudio                     INFO     The device "42LS560S-ZC (DLNA)" was stopped.
+08-12 22:19:19 pulseaudio_dlna.streamserver                   INFO     Client 192.168.178.22 unregistered stream /42ls560szc_dlna.mp3 using method 2.
+08-12 22:19:19 pulseaudio_dlna.streamserver                   DEBUG    Socket died, releasing request thread.
+08-12 22:19:21 pulseaudio_dlna.streamserver                   INFO     Stream closed. Cleaning up remaining processes ...
+08-12 22:19:21 pulseaudio_dlna.streamserver                   INFO     Device "42LS560S-ZC" disconnected.
+08-12 22:19:25 pulseaudio_dlna.pulseaudio                     INFO     on_playback_stream_removed "/org/pulseaudio/core1/playback_stream9"
+08-12 22:19:25 pulseaudio_dlna.pulseaudio                     INFO     _handle_sink_update /org/pulseaudio/core1/sink0
