@@ -8,7 +8,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/List_of_UPnP_AV_media_se
 
 This is what I think would need to be done:
  1. Send SSDP broadcast messages and/or respond to multicast messages sent by clients in order to make the player discoverable by controllers, e.g., using http://miniupnp.free.fr/minissdpd.html (search keyword `ST: urn:schemas-upnp-org:device:ZonePlayer:1` should get us started)
- 2. Respond to UPnP messages in a ZonePlayer-like way, possibly using/building on https://github.com/hzeller/gmrender-resurrect or https://github.com/JiapengLi/OpenWrt-gmediarender (precompiled at https://forum.openwrt.org/viewtopic.php?pid=236110#p236110) - perhaps this [log](https://github.com/probonopd/OpenZonePlayer/blob/master/log.txt) is a starting point
+ 2. Respond to UPnP messages in a ZonePlayer-like way, possibly using/building on https://github.com/hzeller/gmrender-resurrect or https://github.com/JiapengLi/OpenWrt-gmediarender (precompiled at https://forum.openwrt.org/viewtopic.php?pid=236110#p236110) - perhaps this [log](https://github.com/probonopd/OpenZonePlayer/blob/master/log.txt) is a starting point. Also see http://www.front2backdev.com/2013/02/07/hacking-my-sonos/
  3. Find a way to synchronize multiple players for multiroom experience
 
 ### Sonos-compatible software-based controllers
